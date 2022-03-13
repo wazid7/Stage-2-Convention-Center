@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;1,400&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+}
+.package {
+  margin-bottom: 100px;
+}
+.card-big {
+  background: #3f87f5;
+  height: 110%;
+  position: relative;
+  top: -10%;
+  color: white;
+  box-shadow: 0px 42px 34px rgba(63, 135, 245, 0.25);
+  border-radius: 26px;
+}
+.plan-items.speacial a {
+  background: #3f87f5;
+  color: white;
+  margin-bottom: 5px;
+}
+.plan-items a {
+  margin-bottom: 5px;
+}
+form input.form-control,
+form textarea.form-control {
+  border: transparent;
+  border-radius: 0;
+  outline: none;
+  background-color: #f8f9fa;
+}
+.form-control:focus {
+  box-shadow: none;
+  background-color: #f8f9fa;
+}
