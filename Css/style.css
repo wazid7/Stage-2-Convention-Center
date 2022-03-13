@@ -2,6 +2,7 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+
 .package {
   margin-bottom: 100px;
 }
@@ -33,6 +34,9 @@ form textarea.form-control {
   box-shadow: none;
   background-color: #f8f9fa;
 }
+.toast.show {
+  border-left: 4px solid yellowgreen;
+}
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 }
@@ -54,13 +58,19 @@ form textarea.form-control {
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
-  .carouselFix h1 {
-    font-size: 18px;
+  .main-menu a {
+    width: 50%;
   }
-
+  .carouselFix h1 {
+    font-size: 14px;
+  }
+  .carouselFix img {
+    height: 220px;
+  }
   .carouselFix p {
     font-size: 11px;
     line-height: 1;
+    margin-bottom: 5px;
   }
   .btnsmall {
     padding: 0.25rem 0.5rem;
@@ -75,4 +85,18 @@ form textarea.form-control {
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
+  .carouselFix h1 {
+    font-size: 20px;
+  }
+
+  .carouselFix p {
+    font-size: 13px;
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+  .btnsmall {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+  }
 }
